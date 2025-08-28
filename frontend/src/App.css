@@ -1,0 +1,89 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+}
+
+.main-content {
+  padding: 20px 0;
+  min-height: calc(100vh - 80px);
+}
+
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-warning {
+  background: linear-gradient(135deg, #ffc107, #ffb300) !important;
+  border: none !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+}
+
+.btn-warning:hover {
+  background: linear-gradient(135deg, #ffb300, #ff8f00) !important;
+  color: #000 !important;
+}
+
+.form-control:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+.alert {
+  border: none !important;
+  border-radius: 12px !important;
+}
+
+.table th {
+  background: linear-gradient(135deg, #ffc107, #ffb300) !important;
+  color: #000 !important;
+  font-weight: 600 !important;
+  border: none !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+}
+
+.nav-link.active {
+  background-color: rgba(0,0,0,0.1) !important;
+  border-radius: 8px !important;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px 0;
+  }
+  
+  .card-body {
+    padding: 1rem !important;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar {
+  width: 6px;
+}
+
+.overflow-auto::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+  background: #ffc107;
+  border-radius: 10px;
+}

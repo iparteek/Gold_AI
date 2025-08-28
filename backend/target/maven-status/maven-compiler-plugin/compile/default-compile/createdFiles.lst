@@ -1,0 +1,14 @@
+com\goldai\service\GoldPriceService.class
+com\goldai\controller\PurchaseController.class
+com\goldai\GoldAiApplication.class
+com\goldai\service\ChatService.class
+com\goldai\service\PurchaseService.class
+com\goldai\model\PurchaseRequest.class
+com\goldai\model\User.class
+com\goldai\model\ChatResponse.class
+com\goldai\repository\UserRepository.class
+com\goldai\config\WebConfig.class
+com\goldai\controller\ChatController.class
+com\goldai\model\User$GoldPurchase.class
+com\goldai\model\ChatRequest.class
+com\goldai\model\PurchaseResponse.class
